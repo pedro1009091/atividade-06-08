@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef4ff, #dce8f7);
+    color: #222;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #101820;
+    color: white;
+    text-align: center;
+    padding: 28px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+nav {
+    background-color: #17212b;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.pagina-atual {
+    color: #80bfff;
+}
+
+main {
+    width: 90%;
+    max-width: 1150px;
+    margin: 30px auto;
+}
+
+.banner {
+    min-height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.botao {
+    background-color: white;
+    color: #101820;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #dce8f7;
+}
+
+.apresentacao {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.apresentacao h2 {
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    margin-bottom: 15px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-pagina h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.produtos {
+    gap: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.foto-produto {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    color: #40566b;
+    font-weight: bold;
+}
+
+.produto h3 {
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+.produto p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.produto strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.produto button {
+    width: 100%;
+    border: none;
+    background-color: #101820;
+    color: white;
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #28506f;
+}
+
+.sobre {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.imagem-sobre {
+    height: 220px;
+    background: linear-gradient(135deg, #101820, #28506f);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.sobre h2 {
+    margin: 20px 0 8px;
+}
+
+.sobre p {
+    margin-bottom: 15px;
+}
+
+.area-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    max-width: 650px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #4c86b8;
+}
+
+form button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    background-color: #101820;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #28506f;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #888 !important;
+}
+
+.desconto {
+    font-weight: bold;
+    color: #28506f !important;
+}
+
+footer {
+    background-color: #101820;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 50px;
+}
+
+
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+    }
+
